@@ -55,10 +55,14 @@ const Wrapper = styled.section`
   }
   .example-img {
     border-radius: 1rem;
+    height: 300px;
   }
-  /* @media (min-width: 992px) {
+  @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr 1fr;
-  } */
+    .example-img {
+      height: 200px;
+    }
+  }
 `
 
 export default Images
