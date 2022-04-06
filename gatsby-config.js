@@ -11,7 +11,7 @@ module.exports = {
     title: "Simply Recipes",
     description: "Nice and clean recipes site",
     author: "@johndoe",
-    person: { name: "John, age:28" },
+    person: { name: "John", age: 28 },
     simpleData: ["item 1", "item 2"],
     complexData: [
       { name: "john", age: 32 },
