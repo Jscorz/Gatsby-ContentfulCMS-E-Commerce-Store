@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import RecipeList from "../components/RecipeList"
 
-const about = () => {
+const About = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <main className="page">
@@ -30,9 +32,13 @@ const about = () => {
             placeholder="blurred"
           />
         </section>
+        <section className="featured-recipes">
+          <h5>Look at this awesomesauce!</h5>
+          <RecipeList />
+        </section>
       </main>
     </Layout>
   )
 }
 
-export default about
+export default About
