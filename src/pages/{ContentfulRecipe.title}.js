@@ -15,6 +15,20 @@ export const query = graphql`
     contentfulRecipe(title: { eq: $title }) {
       title
       cookTime
+      content {
+        ingredients
+        instructions
+        tags
+        tools
+      }
+      description {
+        description
+      }
+      prepTime
+      servings
+      image {
+        gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+      }
     }
   }
 `
