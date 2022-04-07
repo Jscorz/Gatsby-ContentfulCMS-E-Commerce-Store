@@ -22,7 +22,6 @@ const RecipeList = ({ recipes = [] }) => {
           </Link>
         )
       })}
-      <h4>recipe list</h4>
     </div>
   )
 }
