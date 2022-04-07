@@ -1,3 +1,5 @@
+const path = require("path")
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -17,6 +19,10 @@ exports.createPages = async ({ graphql, actions }) => {
     recipe.content.tags.forEach(tag => {
       createPage({
         path: `/${tag}`,
+        component: path.resolve(`src/template/tag-template.js`),
+        context: {
+          tag: tag,
+        },
       })
     })
   })
