@@ -82,7 +82,6 @@ html {
 }
 
 body {
-  background: red;
   background: var(--backgroundColor);
   color: var(--textColor);
   font-family: var(--bodyFont);
