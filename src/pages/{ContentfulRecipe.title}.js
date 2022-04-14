@@ -36,14 +36,14 @@ const RecipeTemplate = ({ data }) => {
               {/* recipe-icons */}
               <div className="recipe-icons">
                 <article>
-                  <BsClock />
-                  <h5>prep time</h5>
-                  <p>{prepTime} min.</p>
+                  <BsClockHistory />
+                  <h5>list price</h5>
+                  <p>$ {cookTime}</p>
                 </article>
                 <article>
-                  <BsClockHistory />
-                  <h5>cook time</h5>
-                  <p>{cookTime} min.</p>
+                  <BsClock />
+                  <h5>In stock</h5>
+                  <p>{prepTime}</p>
                 </article>
                 <article>
                   <BsPeople />
@@ -51,6 +51,10 @@ const RecipeTemplate = ({ data }) => {
                   <p>{servings}</p>
                 </article>
               </div>
+              <section className="btn-container">
+                <button className="btn">add to cart</button>
+                <button className="btn">buy now</button>
+              </section>
               {/* tags */}
               <p className="recipe-tags">
                 Tags :{" "}
