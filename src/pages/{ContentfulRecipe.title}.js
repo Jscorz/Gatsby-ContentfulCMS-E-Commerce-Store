@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import slugify from "slugify"
 import SEO from "../components/SEO"
 
-const RecipeTemplate = ({ data }) => {
+const ShopTemplate = ({ data }) => {
   const {
     title,
     cookTime,
@@ -107,4 +107,4 @@ const Wrapper = styled.section`
   }
 `
 
-export default RecipeTemplate
+export default ShopTemplate
