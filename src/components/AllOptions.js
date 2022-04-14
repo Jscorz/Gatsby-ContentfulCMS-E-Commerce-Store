@@ -1,6 +1,6 @@
 import React from "react"
 import TagsList from "./TagsList"
-import RecipeList from "./RecipeList"
+import OptionsList from "./OptionsList"
 import { graphql, useStaticQuery } from "gatsby"
 
 const query = graphql`
@@ -24,12 +24,12 @@ const query = graphql`
 
 const AllOptions = () => {
   const data = useStaticQuery(query)
-  const recipes = data.allContentfulRecipe.nodes
+  const options = data.allContentfulRecipe.nodes
 
   return (
     <section className="recipes-container">
-      <TagsList recipes={recipes} />
-      <RecipeList recipes={recipes} />
+      <TagsList options={options} />
+      <OptionsList options={options} />
     </section>
   )
 }
