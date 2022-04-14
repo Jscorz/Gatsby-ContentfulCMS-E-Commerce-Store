@@ -15,12 +15,6 @@ module.exports = {
     title: "Modern Styles",
     description: "Great Picks At Wholesale Prices",
     author: "Justin Scorzafava",
-    // person: { name: "John", age: 28 },
-    // simpleData: ["item 1", "item 2"],
-    // complexData: [
-    //   { name: "john", age: 32 },
-    //   { name: "susan", age: 22 },
-    // ],
   },
 
   plugins: [
@@ -39,7 +33,6 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `p5tl8d8f7yf9`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
