@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import { FiAlignJustify } from "react-icons/fi"
-import logo from "../assets/images/logo.svg"
+import logo from "../assets/images/logo_transparent.png"
 const Navbar = () => {
   const [show, setShow] = useState(false)
   return (
