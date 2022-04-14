@@ -42,10 +42,6 @@ const RecipeTemplate = ({ data }) => {
                   <h5>In stock</h5>
                   <p>{prepTime}</p>
                 </article>
-                <article>
-                  <h5>servings</h5>
-                  <p>{servings}</p>
-                </article>
               </div>
               <section className="btn-container">
                 <button className="btn">add to cart</button>
