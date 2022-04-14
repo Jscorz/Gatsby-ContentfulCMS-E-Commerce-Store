@@ -17,9 +17,8 @@ const RecipeList = ({ recipes = [] }) => {
               alt={title}
             />
             <h5>{title}</h5>
-            <p>
-              Prep : {prepTime}min | Cook : {cookTime}min
-            </p>
+            <p>| ${cookTime}</p>
+            <p>| {prepTime} available</p>
           </Link>
         )
       })}
