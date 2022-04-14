@@ -22,7 +22,7 @@ const query = graphql`
   }
 `
 
-const AllRecipes = () => {
+const AllOptions = () => {
   const data = useStaticQuery(query)
   const recipes = data.allContentfulRecipe.nodes
 
@@ -34,4 +34,4 @@ const AllRecipes = () => {
   )
 }
 
-export default AllRecipes
+export default AllOptions

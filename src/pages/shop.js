@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import AllRecipes from "../components/AllRecipes"
+import AllOptions from "../components/AllOptions"
 import SEO from "../components/SEO"
 
 const Recipes = () => {
@@ -8,7 +8,7 @@ const Recipes = () => {
     <Layout>
       <SEO title="Shop" />
       <main className="page">
-        <AllRecipes />
+        <AllOptions />
       </main>
     </Layout>
   )
