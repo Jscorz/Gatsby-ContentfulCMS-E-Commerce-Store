@@ -12,15 +12,15 @@ export default function Home() {
         <header className="hero">
           <StaticImage
             src="../assets/images/main.jpeg"
-            alt="flour and eggs"
+            alt="clothes shopping online"
             className="hero-img"
             placeholder="tracedSVG"
             layout="fullWidth"
           />
           <div className="hero-container">
             <div className="hero-text">
-              <h1>simply recipes</h1>
-              <h4>no fluff, just recipes</h4>
+              <h1>modern styles</h1>
+              <h4>great picks at wholesale prices</h4>
             </div>
           </div>
         </header>
