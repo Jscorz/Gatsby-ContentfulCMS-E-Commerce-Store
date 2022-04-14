@@ -7,16 +7,7 @@ const getData = graphql`
       info: siteMetadata {
         author
         description
-        simpleData
         title
-        complexData {
-          age
-          name
-        }
-        person {
-          age
-          name
-        }
       }
     }
   }

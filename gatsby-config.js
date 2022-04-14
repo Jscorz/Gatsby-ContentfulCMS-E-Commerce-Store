@@ -12,15 +12,15 @@ module.exports = {
   /* Your site config here */
 
   siteMetadata: {
-    title: "Simply Recipes",
-    description: "Nice and clean recipes site",
-    author: "@johndoe",
-    person: { name: "John", age: 28 },
-    simpleData: ["item 1", "item 2"],
-    complexData: [
-      { name: "john", age: 32 },
-      { name: "susan", age: 22 },
-    ],
+    title: "Modern Styles",
+    description: "Great Picks At Wholesale Prices",
+    author: "Justin Scorzafava",
+    // person: { name: "John", age: 28 },
+    // simpleData: ["item 1", "item 2"],
+    // complexData: [
+    //   { name: "john", age: 32 },
+    //   { name: "susan", age: 22 },
+    // ],
   },
 
   plugins: [
