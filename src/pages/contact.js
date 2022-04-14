@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
-import RecipeList from "../components/RecipeList"
 import SEO from "../components/SEO"
 
 const contact = ({ data }) => {
@@ -11,23 +10,6 @@ const contact = ({ data }) => {
       <SEO title="Contact" />
       <main className="page">
         <section className="contact-page">
-          <article className="contact-info">
-            <h3>Want To Get In Touch?</h3>
-            <p>
-              Twee blue bottle beard lo-fi. Art party flexitarian vexillologist
-              wolf. Flannel knausgaard PBR&B, small batch slow-carb chicharrones
-              ethical jianbing.
-            </p>
-            <p>
-              Photo booth forage williamsburg, polaroid pitchfork cliche small
-              batch.
-            </p>
-            <p>
-              Venmo chartreuse cloud bread hot chicken, squid kombucha fashion
-              axe sriracha. Raw denim hexagon tbh, chambray gastropub bicycle
-              rights vegan retro etsy narwhal disrupt asymmetrical schlitz.
-            </p>
-          </article>
           <article>
             <form
               className="form contact-form"
@@ -51,10 +33,23 @@ const contact = ({ data }) => {
               </button>
             </form>
           </article>
-        </section>
-        <section className="featured-recipes">
-          <h5>look at this awesomesace</h5>
-          <RecipeList recipes={recipes} />
+          <article className="contact-info">
+            <h3>Want To Get In Touch?</h3>
+            <p>
+              Twee blue bottle beard lo-fi. Art party flexitarian vexillologist
+              wolf. Flannel knausgaard PBR&B, small batch slow-carb chicharrones
+              ethical jianbing.
+            </p>
+            <p>
+              Photo booth forage williamsburg, polaroid pitchfork cliche small
+              batch.
+            </p>
+            <p>
+              Venmo chartreuse cloud bread hot chicken, squid kombucha fashion
+              axe sriracha. Raw denim hexagon tbh, chambray gastropub bicycle
+              rights vegan retro etsy narwhal disrupt asymmetrical schlitz.
+            </p>
+          </article>
         </section>
       </main>
     </Layout>
