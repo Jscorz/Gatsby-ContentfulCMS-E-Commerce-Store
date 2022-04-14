@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import AllOptions from "../components/AllOptions"
 import SEO from "../components/SEO"
 
-const Recipes = () => {
+const Options = () => {
   return (
     <Layout>
       <SEO title="Shop" />
@@ -14,4 +14,4 @@ const Recipes = () => {
   )
 }
 
-export default Recipes
+export default Options

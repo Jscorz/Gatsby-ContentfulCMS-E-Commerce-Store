@@ -12,12 +12,11 @@ const ShopTemplate = ({ data }) => {
     cookTime,
     content,
     prepTime,
-    servings,
     description: { description },
     image,
   } = data.contentfulRecipe
   const pathToImage = getImage(image)
-  const { tags, instructions, ingredients, tools } = content
+  const { tags } = content
   return (
     <Layout>
       <SEO title={title} description={description} />
@@ -34,7 +33,7 @@ const ShopTemplate = ({ data }) => {
               <article className="recipe-info">
                 <h2>{title}</h2>
                 <p>{description}</p>
-                {/* recipe-icons */}
+                {/* icons */}
                 <div className="recipe-icons">
                   <article>
                     <h5>list price</h5>

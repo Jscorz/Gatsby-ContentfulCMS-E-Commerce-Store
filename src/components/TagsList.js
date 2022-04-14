@@ -3,8 +3,8 @@ import setupTags from "../utils/setupTags"
 import { Link } from "gatsby"
 import slugify from "slugify"
 
-const TagsList = ({ recipes }) => {
-  const newTags = setupTags(recipes)
+const TagsList = ({ options }) => {
+  const newTags = setupTags(options)
 
   return (
     <div className="tag-container">

@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import slugify from "slugify"
 
-const OptionsList = ({ recipes = [] }) => {
+const OptionsList = ({ options = [] }) => {
   return (
     <div className="recipes-list">
-      {recipes.map(recipe => {
-        const { id, title, image, prepTime, cookTime } = recipe
+      {options.map(option => {
+        const { id, title, image, prepTime, cookTime } = option
         const pathToImage = getImage(image)
         const slug = slugify(title, { lower: true })
         return (

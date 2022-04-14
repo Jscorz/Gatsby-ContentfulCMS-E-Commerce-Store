@@ -5,15 +5,15 @@ import OptionsList from "../components/OptionsList"
 import SEO from "../components/SEO"
 
 const TagTemplate = ({ data, pageContext }) => {
-  const recipes = data.allContentfulRecipe.nodes
-  console.log(recipes)
+  const options = data.allContentfulRecipe.nodes
+  console.log(options)
   return (
     <Layout>
       <SEO title={pageContext.tag} />
       <main className="page">
         <h2>{pageContext.title}</h2>
         <div className="tag-recipes">
-          <OptionsList recipes={recipes} />
+          <OptionsList options={options} />
         </div>
       </main>
     </Layout>
