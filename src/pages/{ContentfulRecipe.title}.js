@@ -41,7 +41,7 @@ const RecipeTemplate = ({ data }) => {
                     <p>$ {cookTime}</p>
                   </article>
                   <article>
-                    <h5>qty available</h5>
+                    <h5>quantity available</h5>
                     <p>{prepTime}</p>
                   </article>
                 </div>
