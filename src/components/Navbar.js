@@ -40,10 +40,18 @@ const Navbar = () => {
           >
             tags
           </Link>
+          <Link
+            to="/contact"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(!show)}
+          >
+            contact
+          </Link>
 
           <div className="nav-link contact-link" onClick={() => setShow(!show)}>
-            <Link to="/contact" className="btn">
-              contact
+            <Link to="/checkout" className="btn">
+              checkout
             </Link>
           </div>
         </div>
