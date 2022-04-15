@@ -446,12 +446,29 @@ form > *:last-child {
   background: var(--black);
   color: var(--white);
 }
+
+      @media screen and(max-width: 800px) {
+        .page-footer {
+
+          font-size: .4rem;
+        }
+    }
+
+
+
 .page-footer h5 {
   margin-bottom: 0;
 }
 .page-footer p {
   margin-bottom: 0;
 }
+
+  @media screen and(max-width: 800px) {
+    .page-footer p {
+     width: 5px;
+    }
+   }
+
 .page-footer span,
 .page-footer a {
   color: var(--primary-500);

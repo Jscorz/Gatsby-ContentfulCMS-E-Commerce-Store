@@ -17,7 +17,6 @@ const Footer = () => {
 const Wrapper = styled.section`
   p {
     letter-spacing: 0.5rem;
-    white-space: nowrap;
   }
 
   span {
