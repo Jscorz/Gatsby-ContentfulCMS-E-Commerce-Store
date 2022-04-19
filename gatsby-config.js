@@ -44,20 +44,21 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-source-stripe`,
-      options: {
-        objects: [
-          "Balance",
-          "BalanceTransaction",
-          "Product",
-          "ApplicationFee",
-          "Sku",
-          "Subscription",
-        ],
-        secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: true,
-      },
-    }`gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: `gatsby-source-stripe`,
+    //   options: {
+    // objects: [
+    //   "Balance",
+    //   "BalanceTransaction",
+    //   "Product",
+    //   "ApplicationFee",
+    //   "Sku",
+    //   "Subscription",
+    // ],
+    //   secretKey: `${process.env.STRIPE_SECRET_KEY}`,
+    //   downloadFiles: true,
+    // },
+    // }
+    `gatsby-plugin-react-helmet`,
   ],
 }
