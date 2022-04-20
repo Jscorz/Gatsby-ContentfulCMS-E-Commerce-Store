@@ -254,7 +254,7 @@ button.block {
   border: 2px solid var(--grey-900);
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
-  padding: 0.5rem 0.75rem 0.3rem;
+  padding: 0.5rem 0.75rem 0.25rem;
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
@@ -425,7 +425,7 @@ form > *:last-child {
   justify-content: center;
 }
 .contact-link a {
-  padding: 0.15rem 1rem;
+  padding: 0.15rem 1rem 0.05rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -624,7 +624,7 @@ form > *:last-child {
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: var(--primary-800);
+  color: var(--primary-500);
   font-weight: 600;
   padding: 0.5rem;
 }
