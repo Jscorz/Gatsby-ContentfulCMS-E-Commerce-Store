@@ -756,10 +756,10 @@ form > *:last-child {
   font-weight: 600;
 }
 .recipe-tags a {
-  background: var(--primary-500);
+  background: var(--primary-300);
   border-radius: var(--borderRadius);
   color: var(--white);
-  padding: 0.05rem 0.5rem;
+  padding: 0.15rem 0.5rem 0;
   margin: 0 0.25rem;
   text-transform: capitalize;
 }
