@@ -28,7 +28,7 @@ const contact = ({ data }) => {
                 <label htmlFor="message">message</label>
                 <textarea name="message" id="message"></textarea>
               </div>
-              <button type="submit" className="btn-block">
+              <button type="submit" className="btn-dark">
                 submit
               </button>
             </form>
