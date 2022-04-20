@@ -19,7 +19,7 @@ const OptionsList = ({ options = [] }) => {
             />
             <h5>{title}</h5>
             <p>| ${cookTime}</p>
-            <p>| {prepTime} quantity available</p>
+            <p className="padding-bottom">| {prepTime} quantity available</p>
           </Link>
         )
       })}

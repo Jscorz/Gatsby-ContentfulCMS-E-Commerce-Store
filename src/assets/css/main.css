@@ -62,7 +62,7 @@
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
   /* rest */
-  --backgroundColor: var(--black);
+  --backgroundColor: var(--grey-1000);
   --textColor: var(--grey-50);
   --borderRadius: 0.25rem;
   --letterSpacing: 5px;
@@ -597,8 +597,9 @@ form > *:last-child {
 }
 .recipe {
   display: block;
-  border: 2px var(--grey-100) solid;
+  border: 2px var(--primary-500) solid;
   background-color: var(--white);
+  padding-bottom: 0.5rem;
 }
 .recipe-img {
   height: 15rem;
@@ -608,7 +609,7 @@ form > *:last-child {
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: var(--textColor);
+  color: var(--primary-900);
   font-weight: 600;
   padding: 0.5rem;
 }
