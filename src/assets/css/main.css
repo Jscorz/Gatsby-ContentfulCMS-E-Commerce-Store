@@ -604,27 +604,27 @@ form > *:last-child {
 .tags-list a {
   text-transform: capitalize;
   display: block;
-  color: var(--grey-800);
+  color: var(--grey-600);
   transition: var(--transition);
 }
 .tags-list a:hover {
-  color: var(--primary-500);
+  color: var(--primary-300);
 }
 .recipe {
   display: block;
-  border: 2px var(--primary-500) solid;
+  border: 2px var(--primary-600) solid;
   background-color: var(--white);
   padding-bottom: 0.5rem;
 }
 .recipe-img {
-  height: 15rem;
+  height: 20rem;
   border-radius: var(--borderRadius);
 }
 .recipe h5 {
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: var(--primary-900);
+  color: var(--primary-800);
   font-weight: 600;
   padding: 0.5rem;
 }
