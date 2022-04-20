@@ -45,8 +45,10 @@ const ShopTemplate = ({ data }) => {
                   </article>
                 </div>
                 <section className="btn-container  margin-bottom">
-                  <button className="btn margin-right">add to cart</button>
-                  <button className="btn">buy now</button>
+                  <button className="btn-outline margin-right">
+                    add to cart
+                  </button>
+                  <button className="btn-outline">buy now</button>
                 </section>
                 {/* tags */}
                 <p className="recipe-tags">

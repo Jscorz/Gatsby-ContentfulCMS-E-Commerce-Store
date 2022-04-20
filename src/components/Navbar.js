@@ -50,7 +50,7 @@ const Navbar = () => {
           </Link>
 
           <div className="nav-link contact-link" onClick={() => setShow(!show)}>
-            <Link className="btn">checkout</Link>
+            <Link className="btn-outline">checkout</Link>
           </div>
         </div>
       </div>
