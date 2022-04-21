@@ -15,6 +15,8 @@ module.exports = {
     title: "Modern Styles",
     description: "Great Picks At Wholesale Prices",
     author: "Justin Scorzafava",
+    url: `https://jscorz-clothingstore.netlify.app/`,
+    image: `/modernstyles.png`,
   },
 
   plugins: [
