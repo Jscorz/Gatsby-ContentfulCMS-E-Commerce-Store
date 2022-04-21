@@ -56,6 +56,7 @@ const ShopTemplate = ({ data }) => {
                     )
                   })}
                 </p>
+                {/* buttons */}
                 <section className="btn-container  margin-bottom">
                   <button className="btn-outline margin-right">
                     add to cart
