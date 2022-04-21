@@ -36,11 +36,11 @@ const ShopTemplate = ({ data }) => {
                 {/* icons */}
                 <div className="recipe-icons">
                   <article>
-                    <h5>list price</h5>
+                    <h5>price</h5>
                     <p>$ {cookTime}</p>
                   </article>
                   <article>
-                    <h5>quantity available</h5>
+                    <h5>available</h5>
                     <p>{prepTime}</p>
                   </article>
                 </div>
