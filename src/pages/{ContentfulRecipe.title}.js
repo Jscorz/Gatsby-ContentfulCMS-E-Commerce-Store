@@ -44,12 +44,6 @@ const ShopTemplate = ({ data }) => {
                     <p>{prepTime}</p>
                   </article>
                 </div>
-                <section className="btn-container  margin-bottom">
-                  <button className="btn-outline margin-right">
-                    add to cart
-                  </button>
-                  <button className="btn-outline">buy now</button>
-                </section>
                 {/* tags */}
                 <p className="recipe-tags">
                   Tags :{" "}
@@ -62,6 +56,12 @@ const ShopTemplate = ({ data }) => {
                     )
                   })}
                 </p>
+                <section className="btn-container  margin-bottom">
+                  <button className="btn-outline margin-right">
+                    add to cart
+                  </button>
+                  <button className="btn-outline">buy now</button>
+                </section>
               </article>
             </section>
           </div>
