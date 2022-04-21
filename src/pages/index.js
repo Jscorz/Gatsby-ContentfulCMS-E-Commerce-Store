@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import AllOptions from "../components/AllOptions"
+import FeaturedOptions from "../components/FeaturedOptions"
 import SEO from "../components/SEO"
 
 export default function Home() {
@@ -24,7 +25,8 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <AllOptions />
+        <FeaturedOptions />
+        {/* <AllOptions /> */}
       </main>
     </Layout>
   )
