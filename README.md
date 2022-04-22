@@ -18,12 +18,12 @@ I started the project with the hello world starter from Gatsby. After installing
 
 ## **Tech used:**
 
-HTML, CSS, Javascript, React JS, Gatsby JS, Graph QL, Contentful CMS
+HTML, CSS, Javascript, React JS, Gatsby JS, GraphQL, Contentful CMS
 
 ---
 
 ## **Lesson's learned:**
 
-This was a good project to learn about some of the optimizations that Gatsby JS provides. Gatsby improves upon React app and controls rendering and image-loading times. Gatsby also helps with page-routing. This was also my first project working with Contentful for a backend, so it was interesting learning how to retrieve data from there with Graph QL queries.
+This was a good project to learn about some of the optimizations that Gatsby JS provides. Gatsby improves upon React app and controls rendering and image-loading times. Gatsby also helps with page-routing. This was also my first project working with Contentful for a backend, so it was interesting learning how to retrieve data from there with GraphQL queries.
 
 ---
