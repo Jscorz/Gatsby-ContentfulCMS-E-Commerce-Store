@@ -4,9 +4,9 @@ E-Commerce stores are pretty common now, so I decided to build a clothing e-comm
 
 **Link to project: [Live-demo]https://jscorz-clothingstore.netlify.app/**
 
-|                    Desktop                     |                        Mobile                         |
-| :--------------------------------------------: | :---------------------------------------------------: |
-| ![meals2u](src/assets/images/modernstyles.png) | ![meals2u2](src/assets/images/modernstylesmobile.png) |
+---
+
+![screen-gif](./src//assets/images//ezgif.com-gif-maker.gif)
 
 ---
 

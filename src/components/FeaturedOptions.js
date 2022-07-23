@@ -38,3 +38,22 @@ const FeaturedOptions = () => {
 }
 
 export default FeaturedOptions
+
+function getCount(str) {
+  let vowelsCount = 0
+  let stringArray = str.split("")
+
+  newArray = stringArray.filter(word => "aeiou".includes(word)).length
+  vowelsCount = newArray
+
+  return vowelsCount
+}
+function getCount(str) {
+  let vowelsCount = 0
+  let stringArray = str.split("")
+
+  newArray = stringArray.filter(word => "aeiou".includes(word)).length
+  vowelsCount = newArray
+
+  return vowelsCount
+}
